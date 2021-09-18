@@ -1,0 +1,68 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello", "Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What help you provide?", "How you can be helpful?"],
+         "responses": ["I can search on Wikipedia, get your zoom meeting link, convert timezone, and chat", "Lookup words, get zoom links, convert time, .. just ask"],
+         "context": [""]
+        },
+        {"tag": "appointment status",
+         "patterns": ["Is my appointment fixed?","Do I have an appointment today?"],
+         "responses": ["Yes","NO! Not Yet"],
+         "context": [""]
+        },
+        {"tag": "invalid",
+         "patterns": ["Marry me","I love You","date me","chat with me","I am bored"],
+         "responses": ["Please ask something else..."],
+         "context": [""]
+        },
+        {"tag": "noans",
+         "patterns": ["why","how","when","I","you"],
+         "responses": ["Can't Understand Your Question","please elaborate your question"],
+         "context": [""]
+        },
+        {"tag": "name",
+         "patterns": ["what is your name?","what should I call you?"],
+         "responses": ["I'm Ren","Hey!I'm Ren"],
+         "context": [""]
+        },
+         {"tag": "about",
+         "patterns": ["how you doing?","how are you"],
+         "responses": ["Thanks For Asking!How can I help you?"],
+         "context": [""]
+        },
+        {"tag": "Weather",
+         "patterns": ["what is the weather today?"],
+         "responses": ["It's 36C according to accuweather"],
+         "context": [""]
+        },
+        {"tag": "leave",
+         "patterns": ["Is Michel Sharma on leave?","Is Siddhart Roy present today?","Is Shantanu Bhatt in office?"],
+         "responses": ["Give me a moment!I'll just check","yes","no"],
+         "context": [""]
+        },
+       {"tag": "hours",
+         "patterns": ["Opening hours of the cafeteria?","when does the cafeteria open","office canteen opening time"],
+         "responses": ["It is open from Monday-Saturday 9:00am-7:30pm"],
+         "context": [""]
+        }
+   ]
+}
