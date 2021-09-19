@@ -169,4 +169,4 @@ if True:
     train_X, train_y = train_data(training_data)
 
     # 3. build a model
-    build_model('Ren04202021.h5', train_X, train_y)
+    build_model('Ren2021.h5', train_X, train_y)
